@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#1aaaaa"
       },
       "shape": {
         "type": "polygon",
@@ -53,13 +53,13 @@ document.addEventListener("DOMContentLoaded", function () {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#1aaaaa",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 10,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "grab"
         },
         "onclick": {
